@@ -6,7 +6,5 @@ const data = await useFetch(`${apiUrl}get-test`)
 </script>
 
 <template>
-  <p>
-    Hello Nuxt {{ data }}!
-  </p>
+  <NuxtPage />
 </template>
